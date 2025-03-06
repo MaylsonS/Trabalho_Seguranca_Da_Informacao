@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALERTA!</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .alerta {
+            font-size: 60px;
+            font-weight: bold;
+            animation: piscar 0.7s infinite alternate;
+        }
+
+        @keyframes piscar {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        .voltar {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: white;
+            background: red;
+            border: none;
+            cursor: pointer;
+        }
+
+        .voltar:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="alerta">⚠️ DADOS ROUBADOS !!! ⚠️</div>
+        <a class="voltar" href="index.html">Voltar</a> 
+    </div>
+</body>
+</html>

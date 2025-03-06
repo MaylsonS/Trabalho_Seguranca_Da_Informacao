@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - Loja</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<style>
+    .imgs:hover{
+        border: solid 1px cyan;
+        cursor: pointer;
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar" style="background-color: #f7c700; display: flex;">
+            <div class="logo" style="width: 26%;    margin-left: 3%;">
+                <img src="https://www.armazempb.com.br/file/general/logo_redonda.png" style="width: 15%;">
+                <img src="https://relacionamento.armazempb.com.br/wp-content/uploads/2022/08/logo_popup.png"  style="width: 55%;">
+            </div>
+            <input type="text" placeholder="Aqui é barato de verdade! Pode pesquisar..." style="width: 44%;height: 1%;margin-top: 2%;border: none;border-radius: 3%;font-size: small;padding: 0.1rem;">
+            <div class="user-options" style=" display: flex;gap: 17%;width: 19%;align-items: center;margin-left: 4%;">
+                <h3 style="width: 33%;"> <a href="#" style="text-decoration: none; color: black;">Entrar ou cadastrar-se</a> </h3>
+                <a href="#">🛒</a>
+            </div>
+        </nav>  
+    </header>
+    <div class="texto" style="position: absolute; margin-left: 21%; margin-top: 1.5%;"><h1>Smart Tv Semp TCL P755 LED 4K 50" AIPQ 3 HDMI 1 USB</h1></div>
+
+    <main style="display: flex;">
+        
+        <section class="product" style="display: flex;  padding: 4%;">
+            <div class="product-itens" style="display: flex; gap: 3%; padding-left: 19%; padding-right: 19%;">
+                <div class="thumbnails" style="display: flex;flex-direction: column; width: 10%; justify-content: center; gap: 4%;"> 
+                    <img class="imgs" src="https://www.armazempb.com.br/ccstore/v1/images/?source=/file/v3421991641005207595/products/031319.01.jpg&height=940&width=940" alt="Imagem 1" style="border: solid 0.5px #333; padding: 3%;">
+                    <img class="imgs" src="https://www.armazempb.com.br/ccstore/v1/images/?source=/file/v3421991641005207595/products/031319.01.jpg&height=940&width=940" alt="Imagem 2" style="border: solid 0.5px #333; padding: 3%;">
+                    <img class="imgs" src="https://www.armazempb.com.br/ccstore/v1/images/?source=/file/v3421991641005207595/products/031319.01.jpg&height=940&width=940" alt="Imagem 3" style="border: solid 0.5px #333; padding: 3%;">
+                </div>
+
+                <div class="img_pricni">
+                    <img src="https://www.armazempb.com.br/ccstore/v1/images/?source=/file/v3421991641005207595/products/031319.01.jpg&height=940&width=940"  alt="TV 50''" class="main-image" style="    display: flex;   margin: auto;width: 64%;">
+                    </div>
+
+                <div class="product-info" style="display: flex ;flex-direction: column; margin: auto; width: 27%;">
+                    <h3 style="color: gray;">De <span style="text-decoration:line-through;">R$ 3.249,00</span></h3>
+                    <h1 style="font-size: 250%;margin: 0;"><span style="color: rgb(107, 102, 102); margin: 0; font-size:12px;">por</span> R$ 599,50</h1>
+                    <p class="installments">Ou em até 10x de R$ 219,90 sem juros</p>
+                    <a href="alerta.html">
+                        <button class="buy-btn" style="background-color: #2bac76;margin-bottom: 8%;padding: 3%;border-radius: 4%;border: none;color: white;font-size: 125%;">Comprar</button>
+                    </a>
+                    <div class="shipping">
+                        <label for="cep" style="font-size: larger;font-weight: 700;">Consultar o frete:</label>
+                        <input type="text" id="cep" placeholder="00000-000">
+                        <button id="check-shipping">OK</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer style="margin-top: 12%;text-align: center;">
+        <p>&copy; 2025 Armazem PB - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
